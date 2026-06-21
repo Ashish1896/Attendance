@@ -1,0 +1,43 @@
+# ============================================================
+# Smart Attendance System — Requirements (Lightweight Edition)
+# Python 3.13 compatible — NO tensorflow, NO dlib, NO deepface
+# Face recognition uses pure OpenCV + NumPy (already available)
+# ============================================================
+
+# Core
+streamlit>=1.35.0
+
+# Database
+supabase>=2.4.0
+
+# Authentication
+bcrypt>=4.1.2
+PyJWT>=2.8.0
+
+# Face Recognition — pure OpenCV + NumPy (no heavy ML framework)
+opencv-python-headless>=4.9.0.80
+
+# Image Processing
+Pillow>=10.3.0
+
+# Data Science
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.4.2
+
+# QR Code
+segno>=1.6.1
+
+# Analytics / Charts
+plotly>=5.22.0
+
+# Export
+openpyxl>=3.1.2
+
+# Utilities
+python-dotenv>=1.0.1
+requests>=2.32.2
+pydantic>=2.7.1
+
+# Dev
+watchdog>=4.0.1
