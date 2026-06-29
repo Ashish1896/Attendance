@@ -1,10 +1,20 @@
-# Python
+# Virtual environment
+venv/
+ENV/
+.venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual Environment
-venv/
+# Environment variables / secrets
 .env
+.env.local
+.streamlit/secrets.toml
+.streamlit/
 
 # OS files
 .DS_Store
@@ -13,7 +23,3 @@ Desktop.ini
 
 # VS Code
 .vscode/
-
-# Streamlit
-.streamlit/secrets.toml
-.streamlit/

@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 DOMAIN = "snapclass-main.streamlit.app"
