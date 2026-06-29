@@ -16,8 +16,7 @@ def _generate_qr_png(join_url: str) -> bytes:
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name: str, subject_code: str) -> None:
-    # Read domain from Streamlit secrets so it works across environments (SEC-02)
-    app_domain = st.secrets.get("APP_DOMAIN", "snapclass-main.streamlit.app")
+    app_domain = "snapclass-main.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.header("Scan to Join")
